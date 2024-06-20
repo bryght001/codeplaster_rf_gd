@@ -1,0 +1,61 @@
+// variables === === === === 
+$backgroundColor:#fffff6;
+$themeColor1: #56565B;
+$themeColor2: #F57E5D;
+$textColor: #FFFFF6;
+$fontSize-lg: 35px;
+$fontSize-md: 25px;
+$fontSize-sm: 15px;
+$divPadding: 0.5em;
+$fontExtraBold: 900;
+$fontBold: 700;
+$fontMedium: 500;
+$fontThin: 300;
+
+
+
+
+
+// Mobile first design === === === === 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: $backgroundColor;
+}
+
+.navheader{
+  position: relative;
+  display: flex;
+  background-color: $themeColor1;
+  padding: $divPadding;
+}
+
+#brandName{
+  color: $themeColor2;
+  font-size: $fontSize-sm;
+  font-weight: $fontExtraBold;
+}
+
+.headLinks{
+  font-size: $fontSize-sm;
+  font-weight: $fontThin;
+}
+
+#toggleBar{
+  border: 2px solid $themeColor2;
+  padding: 0.2em;
+  background-color: transparent;
+  width: 70px;
+  color: $themeColor2;
+  font-weight: $fontExtraBold;
+  text-align: center;
+}
+
+
+
+.heroSection{
+  
+}

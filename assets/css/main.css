@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #fffff6;
+}
+
+.navheader {
+  position: relative;
+  display: flex;
+  background-color: #56565B;
+  padding: 0.5em;
+}
+
+#brandName {
+  color: #F57E5D;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.headLinks {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#toggleBar {
+  border: 2px solid #F57E5D;
+  padding: 0.2em;
+  background-color: transparent;
+  width: 70px;
+  color: #F57E5D;
+  font-weight: 900;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
